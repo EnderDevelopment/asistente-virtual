@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Monster Anime",
+    "description": "A private anime-horror chat assistant that changes personality from friendly day to aggressive night.",
+    "uuid": "d1b61f42-700c-4f8e-99ba-f9a8f4c7a231",
+    "version": [1, 1, 0],
+    "min_engine_version": [1, 20, 80]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "e5a45f06-77bd-47f4-9d52-4e5c2d37f980",
+      "version": [1, 1, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.13.0"
+    }
+  ]
+}
